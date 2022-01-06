@@ -3,6 +3,7 @@ body{
 }
 .container{
     max-width: 60rem;
+    height: 20rem;
     margin: auto;
     justify-content: center;
     
@@ -15,23 +16,39 @@ h1{
 .btn-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 button{
     background-color: #9CBDE5;
     border: none;
-    padding: 2rem;
+    
+    height: 4rem;
     border-radius: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3rem;  
+    font-size: 35px;  
+    text-align: center;
     color:#FFFEF5;
     
 }
-button:hover{
+
+.btn-op:hover {
     cursor:pointer;
     background-color:#355070;
 }
+.btn-num:hover {
+    cursor:pointer;
+    background-color:#d88f19;
+}
+.btn-eq:hover {
+    cursor:pointer;
+    background-color:#278b5b;
+}
+.btn-CE:hover {
+    cursor:pointer;
+    background-color:#eb0f21;
+}
+
 .text{
     padding-bottom: 1rem;
 }
@@ -40,14 +57,15 @@ button:hover{
     background-color:#81B29A; 
 
 }
-.btn{
+.btn-num{
     background-color:#F2CC8F; 
 }
 .btn-CE{
     background-color:#d64550;
 }
 textarea{
-    width: 58rem;
+    width: 57rem;
+    height: 3rem;
     padding: 1rem;
     border: 5px solid #CFCFCD; 
     border-radius: 1rem;
